@@ -1,0 +1,37 @@
+.section_padding {
+  padding: 80px 0;
+}
+.section_title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section_title h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.single_circle_progressbar {
+  text-align: center;
+}
+.circle_progressbar_wrap {
+  position: relative;
+  margin-bottom: 20px;
+}
+.progressbar_percentage {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  line-height: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: -20px;
+}
+#web_score_circle .progressbar_percentage {
+	color: #FFCD43;
+}
+#graphic_score_circle .progressbar_percentage {
+	color: #ff33cc;
+}
+#digital_score_circle .progressbar_percentage {
+	color: #00ff00;
+}
